@@ -11,7 +11,9 @@ Pre-compiled files will be found in the builds folder for those who dont know ho
 
 ##Launching
 This can only be launched via hacks such as tubehax (depreciated), browserhax, ironhax, browserhax, homemenuhax, etc.  
-Do not attempt to launch directly from homemenuhax as any homebrew app you run will be be restricted to CPU0 and as a result the the physics thread will fail to launch. (see: https://github.com/yellows8/3ds_homemenuhax/issues/6 [also provides simple workaround])
+Do not attempt to launch directly from homemenuhax as any homebrew app you run will be be restricted to CPU0 and as a result the the physics thread will fail to launch. (see: https://github.com/yellows8/3ds_homemenuhax/issues/6 [also provides simple workaround]).  
+
+You may also be able to get the .elf file to work with your Gateway3DS cart. but I cannot test this since I do not have one.
 
 ##How to play:  
 *The 3ds analogue stick is used to move left right and backwards.  
