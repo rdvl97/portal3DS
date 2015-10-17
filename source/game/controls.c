@@ -70,7 +70,7 @@ void updateControls(player_s* p)
 		movePlayer(p, vect3Df(cpad.dx*factor, 0.0f, -cpad.dy*factor));
 	}
 
-	if(keysDown()&KEY_ZL)
+	if(keysDown()&KEY_X)
 	{
 		// "USE" key
 		vect3Df_s u = moveCameraVector(&p->camera, vect3Df(0.0f, 0.0f, -1.0f), true);
@@ -87,7 +87,7 @@ void updateControls(player_s* p)
 		}
 	}
 
-	if(keysDown()&KEY_ZR)
+	if(keysDown()&KEY_A)
 	{
 		// JUMP key
 		if(p->object.contact)
@@ -98,7 +98,7 @@ void updateControls(player_s* p)
 
 	if(gravityGunObject)
 	{
-		if(!(keysHeld()&KEY_ZL))
+		if(!(keysHeld()&KEY_X))
 		{
 			gravityGunObject = NULL;
 			md2InstanceChangeAnimation(&p->gunInstance, 0, false);
