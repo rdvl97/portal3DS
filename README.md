@@ -20,3 +20,10 @@ You may also be able to get the .elf file to work with your Gateway3DS cart. but
 *Shoot red and blue portals using the Left and Right triggers.  
 *Jumping is now the A button.  
 *Picking up cubes is now done by holding X button.  
+*Looking around is done by dragging stylus across touch screen.
+
+##Known Issues  
+*Only first world playable without random crashing.  
+*First level crashes if you fall out of the world.  
+*Respawning causes the game to hang.  
+*You can flip your head upside down.
